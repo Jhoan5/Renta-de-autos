@@ -57,17 +57,19 @@
               >
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a class="dropdown-item" href="./mantenimiento.html"
+                  <a class="dropdown-item" href="./html/mantenimiento.html"
                     >Mantenimiento</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./alineacionYbalanceo.html"
+                  <a
+                    class="dropdown-item"
+                    href="./html/alineacionYbalanceo.html"
                     >Alineación y balanceo</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="./montallantas.html"
+                  <a class="dropdown-item" href="./html/montallantas.html"
                     >Montallantas</a
                   >
                 </li>
@@ -76,9 +78,8 @@
           </ul>
           <form class="d-flex">
             <button class="btn btn-outline-dark" type="button">
-              <i class="bi-cart-fill me-1"></i>
-              Carrito
-              <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+              <i class="bi bi-person-circle"></i>
+              Inicio sesion
             </button>
           </form>
         </div>
@@ -93,17 +94,17 @@
             Ofrecemos facilidad y confianza
           </p>
           <form class="row pt-5">
-            <div class="input-group p-0 col-lg-3">
+            <div class="input-group px-1 py-1 col-lg-3">
               <span class="bi bi-geo-alt input-group-text"></span>
               <input type="text" class="form-control" placeholder="ubicación" />
             </div>
 
             <div class="d-flex col p-0">
-              <div class="input-group p-0 col">
+              <div class="input-group px-1 py-1 col">
                 <span class="bi bi-calendar3 input-group-text"></span>
                 <input type="date" class="form-control" />
               </div>
-              <div class="input-group p-0 col">
+              <div class="input-group px-1 py-1 col">
                 <select class="form-select">
                   <option value="">1:00 am</option>
                   <option value="">2:00 am</option>
@@ -133,11 +134,11 @@
               </div>
             </div>
             <div class="d-flex col p-0">
-              <div class="input-group p-0 col">
+              <div class="input-group px-1 py-1 col">
                 <span class="bi bi-calendar3 input-group-text"></span>
                 <input type="date" class="form-control" />
               </div>
-              <div class="input-group p-0 col">
+              <div class="input-group px-1 py-1 col">
                 <select class="form-select">
                   <option value="">1:00 am</option>
                   <option value="">2:00 am</option>
@@ -173,23 +174,32 @@
     </header>
     <!-- Section-->
     <section class="py-5" id="autos">
-      <div class="container px-4 px-lg-5 mt-5">
+      <div class="container px-3 px-lg-3 mt-3">
         <div
           class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
         >
-          <div class="col mb-5">
+          <div class="col mb-4">
             <div class="card h-100">
               <!-- Product image-->
               <img
                 class="card-img-top"
-                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                alt="..."
+                src="./assets/img/renault_captur.webp"
+                alt="Renault Captur"
+                width="450px"
+                height="300px"
               />
               <!-- Product details-->
               <div class="card-body p-4">
                 <div class="text-center">
                   <!-- Product name-->
-                  <h5 class="fw-bolder">Fancy Product</h5>
+                  <h5 class="fw-bolder">Renault Captur</h5>
+                  <!-- Product description -->
+                  <p>
+                    <b><span class="bi bi-person-fill"></span> 5</b>
+                    <b><span class="bi bi-bag-fill"></span> 1</b>
+                    <b><span class="bi bi-door-open-fill"></span> 4</b>
+                    <b><span class="bi bi-joystick"></span> Manual</b>
+                  </p>
                   <!-- Product price-->
                   $40.00 - $80.00
                 </div>
@@ -198,32 +208,35 @@
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div class="text-center">
                   <a class="btn btn-outline-dark mt-auto" href="#"
-                    >View options</a
+                    >Ver Oferta</a
                   >
                 </div>
               </div>
             </div>
           </div>
-          <div class="col mb-5">
+          <div class="col mb-4">
             <div class="card h-100">
-              <!-- Sale badge-->
-              <div
-                class="badge bg-dark text-white position-absolute"
-                style="top: 0.5rem; right: 0.5rem"
-              >
-                Sale
-              </div>
               <!-- Product image-->
               <img
                 class="card-img-top"
-                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                alt="..."
+                src="./assets/img/renault_kwid.png"
+                alt="Renault kwid"
+                width="450px"
+                height="300px"
               />
               <!-- Product details-->
               <div class="card-body p-4">
                 <div class="text-center">
                   <!-- Product name-->
-                  <h5 class="fw-bolder">Special Item</h5>
+                  <h5 class="fw-bolder">Renault Kwid</h5>
+                  <!-- Product description -->
+                  <p>
+                    <b><span class="bi bi-person-fill"></span> 5</b>
+                    <b><span class="bi bi-bag-fill"></span> 1</b>
+                    <b><span class="bi bi-door-open-fill"></span> 4</b>
+                    <b><span class="bi bi-joystick"></span> Manual</b>
+                  </p>
+
                   <!-- Product reviews-->
                   <div
                     class="d-flex justify-content-center small text-warning mb-2"
@@ -244,12 +257,14 @@
               <!-- Product actions-->
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div class="text-center">
-                  <a class="btn btn-outline-dark mt-auto" href="#">Añadir</a>
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >Ver oferta</a
+                  >
                 </div>
               </div>
             </div>
           </div>
-          <div class="col mb-5">
+          <div class="col mb-4">
             <div class="card h-100">
               <!-- Sale badge-->
               <div
@@ -261,14 +276,23 @@
               <!-- Product image-->
               <img
                 class="card-img-top"
-                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                alt="..."
+                src="./assets/img/renault_logan.webp"
+                alt="Renault Logan"
+                width="450px"
+                height="300px"
               />
               <!-- Product details-->
               <div class="card-body p-4">
                 <div class="text-center">
                   <!-- Product name-->
-                  <h5 class="fw-bolder">Sale Item</h5>
+                  <h5 class="fw-bolder">Renault Logan</h5>
+                  <!-- Product description -->
+                  <p>
+                    <b><span class="bi bi-person-fill"></span> 5</b>
+                    <b><span class="bi bi-bag-fill"></span> 1</b>
+                    <b><span class="bi bi-door-open-fill"></span> 4</b>
+                    <b><span class="bi bi-joystick"></span> Manual</b>
+                  </p>
                   <!-- Product price-->
                   <span class="text-muted text-decoration-line-through"
                     >$50.00</span
@@ -279,24 +303,35 @@
               <!-- Product actions-->
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div class="text-center">
-                  <a class="btn btn-outline-dark mt-auto" href="#">Añadir</a>
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >Ver oferta</a
+                  >
                 </div>
               </div>
             </div>
           </div>
-          <div class="col mb-5">
+          <div class="col mb-4">
             <div class="card h-100">
               <!-- Product image-->
               <img
                 class="card-img-top"
-                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                alt="..."
+                src="./assets/img/renault_stepway.png"
+                alt="Renautl Stepway"
+                width="450px"
+                height="300px"
               />
               <!-- Product details-->
               <div class="card-body p-4">
                 <div class="text-center">
                   <!-- Product name-->
-                  <h5 class="fw-bolder">Popular Item</h5>
+                  <h5 class="fw-bolder">Renault Stepway</h5>
+                  <!-- Product description -->
+                  <p>
+                    <b><span class="bi bi-person-fill"></span> 5</b>
+                    <b><span class="bi bi-bag-fill"></span> 1</b>
+                    <b><span class="bi bi-door-open-fill"></span> 4</b>
+                    <b><span class="bi bi-joystick"></span> Manual</b>
+                  </p>
                   <!-- Product reviews-->
                   <div
                     class="d-flex justify-content-center small text-warning mb-2"
@@ -314,31 +349,42 @@
               <!-- Product actions-->
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div class="text-center">
-                  <a class="btn btn-outline-dark mt-auto" href="#">Añadir</a>
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >Ver oferta</a
+                  >
                 </div>
               </div>
             </div>
           </div>
-          <div class="col mb-5">
+          <div class="col mb-4">
             <div class="card h-100">
               <!-- Sale badge-->
               <div
                 class="badge bg-dark text-white position-absolute"
                 style="top: 0.5rem; right: 0.5rem"
               >
-                Sale
+                <span class="bi bi-heart"></span>
               </div>
               <!-- Product image-->
               <img
                 class="card-img-top"
-                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                alt="..."
+                src="./assets/img/renault_alaskan.png"
+                alt="Renault Alaskan"
+                width="450px"
+                height="300px"
               />
               <!-- Product details-->
               <div class="card-body p-4">
                 <div class="text-center">
                   <!-- Product name-->
-                  <h5 class="fw-bolder">Sale Item</h5>
+                  <h5 class="fw-bolder">Renault Alaskan</h5>
+                  <!-- Product description -->
+                  <p>
+                    <b><span class="bi bi-person-fill"></span> 5</b>
+                    <b><span class="bi bi-bag-fill"></span> 1</b>
+                    <b><span class="bi bi-door-open-fill"></span> 4</b>
+                    <b><span class="bi bi-joystick"></span> Manual</b>
+                  </p>
                   <!-- Product price-->
                   <span class="text-muted text-decoration-line-through"
                     >$50.00</span
@@ -349,24 +395,35 @@
               <!-- Product actions-->
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div class="text-center">
-                  <a class="btn btn-outline-dark mt-auto" href="#">Añadir</a>
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >Ver oferta</a
+                  >
                 </div>
               </div>
             </div>
           </div>
-          <div class="col mb-5">
+          <div class="col mb-4">
             <div class="card h-100">
               <!-- Product image-->
               <img
                 class="card-img-top"
-                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                alt="..."
+                src="assets/img/renault_oroch.png"
+                alt="Renault Oroch"
+                width="450px"
+                height="300px"
               />
               <!-- Product details-->
               <div class="card-body p-4">
                 <div class="text-center">
                   <!-- Product name-->
-                  <h5 class="fw-bolder">Fancy Product</h5>
+                  <h5 class="fw-bolder">Renault Oroch</h5>
+                  <!-- Product description -->
+                  <p>
+                    <b><span class="bi bi-person-fill"></span> 5</b>
+                    <b><span class="bi bi-bag-fill"></span> 1</b>
+                    <b><span class="bi bi-door-open-fill"></span> 4</b>
+                    <b><span class="bi bi-joystick"></span> Manual</b>
+                  </p>
                   <!-- Product price-->
                   $120.00 - $280.00
                 </div>
@@ -375,32 +432,41 @@
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div class="text-center">
                   <a class="btn btn-outline-dark mt-auto" href="#"
-                    >View options</a
+                    >Ver Oferta</a
                   >
                 </div>
               </div>
             </div>
           </div>
-          <div class="col mb-5">
+          <div class="col mb-4">
             <div class="card h-100">
               <!-- Sale badge-->
               <div
                 class="badge bg-dark text-white position-absolute"
                 style="top: 0.5rem; right: 0.5rem"
               >
-                Sale
+                <span class="bi bi-heart"></span>
               </div>
               <!-- Product image-->
               <img
                 class="card-img-top"
-                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                alt="..."
+                src="assets/img/Renault_koleos.webp"
+                alt="Renault Koleos"
+                width="450px"
+                height="300px"
               />
               <!-- Product details-->
-              <div class="card-body p-4">
+              <div cglass="card-body p-4">
                 <div class="text-center">
                   <!-- Product name-->
-                  <h5 class="fw-bolder">Special Item</h5>
+                  <h5 class="fw-bolder">Renault Koleos</h5>
+                  <!-- Product description -->
+                  <p>
+                    <b><span class="bi bi-person-fill"></span> 5</b>
+                    <b><span class="bi bi-bag-fill"></span> 1</b>
+                    <b><span class="bi bi-door-open-fill"></span> 4</b>
+                    <b><span class="bi bi-joystick"></span> Manual</b>
+                  </p>
                   <!-- Product reviews-->
                   <div
                     class="d-flex justify-content-center small text-warning mb-2"
@@ -421,24 +487,35 @@
               <!-- Product actions-->
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div class="text-center">
-                  <a class="btn btn-outline-dark mt-auto" href="#">Añadir</a>
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >Ver oferta</a
+                  >
                 </div>
               </div>
             </div>
           </div>
-          <div class="col mb-5">
+          <div class="col mb-4">
             <div class="card h-100">
               <!-- Product image-->
               <img
                 class="card-img-top"
-                src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg"
-                alt="..."
+                src="assets/img/renault_duster.webp"
+                alt="Renault Duster"
+                width="450px"
+                height="300px"
               />
               <!-- Product details-->
               <div class="card-body p-4">
                 <div class="text-center">
                   <!-- Product name-->
-                  <h5 class="fw-bolder">Popular Item</h5>
+                  <h5 class="fw-bolder">Renault Duster</h5>
+                  <!-- Product description -->
+                  <p>
+                    <b><span class="bi bi-person-fill"></span> 5</b>
+                    <b><span class="bi bi-bag-fill"></span> 1</b>
+                    <b><span class="bi bi-door-open-fill"></span> 4</b>
+                    <b><span class="bi bi-joystick"></span> Manual</b>
+                  </p>
                   <!-- Product reviews-->
                   <div
                     class="d-flex justify-content-center small text-warning mb-2"
@@ -456,7 +533,9 @@
               <!-- Product actions-->
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div class="text-center">
-                  <a class="btn btn-outline-dark mt-auto" href="#">Añadir</a>
+                  <a class="btn btn-outline-dark mt-auto" href="#"
+                    >Ver oferta</a
+                  >
                 </div>
               </div>
             </div>
@@ -468,7 +547,16 @@
     <footer class="py-5 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">
-          Autor &copy; Jhoan5 Renta autos 2024 | Desarrollado con <a href="https://getbootstrap.com/" class="text-white" target="_blank">Bootstrap</a>
+          Autor &copy;
+          <a href="https://github.com/Jhoan5/Renta-de-autos" class="text-white">Jhoan5</a> Renta
+          autos 2024 | Desarrollado con
+          <a href="https://getbootstrap.com/" class="text-white" target="_blank"
+            >Bootstrap</a
+          >
+          | Material de imágenes tomado de
+          <a href="https://www.renault.com/" class="text-white" target="_blank"
+            >www.renault.com</a
+          >
         </p>
       </div>
     </footer>
