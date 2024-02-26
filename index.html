@@ -38,9 +38,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Inicio</a
+              >
             </li>
-            <li class="nav-item"><a class="nav-link" href="./index.html#autos">Autos</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html#autos">Autos</a>
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -52,9 +56,21 @@
                 >Servicios</a
               >
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="./mantenimiento.html">Mantenimiento</a></li>
-                <li><a class="dropdown-item" href="./alineacionYbalanceo.html">Alineación y balanceo</a></li>
-                <li><a class="dropdown-item" href="./montallantas.html">Montallantas</a></li>
+                <li>
+                  <a class="dropdown-item" href="./mantenimiento.html"
+                    >Mantenimiento</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./alineacionYbalanceo.html"
+                    >Alineación y balanceo</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./montallantas.html"
+                    >Montallantas</a
+                  >
+                </li>
               </ul>
             </li>
           </ul>
@@ -70,12 +86,88 @@
     </nav>
     <!-- Header-->
     <header class="bg-dark py-5">
-      <div class="container px-4 px-lg-5 my-5">
+      <div class="container px-3 px-lg-5 my-3">
         <div class="text-center text-white">
           <h1 class="display-4 fw-bolder">Renta de autos</h1>
           <p class="lead fw-normal text-white-50 mb-0">
             Ofrecemos facilidad y confianza
           </p>
+          <form class="row pt-5">
+            <div class="input-group p-0 col-lg-3">
+              <span class="bi bi-geo-alt input-group-text"></span>
+              <input type="text" class="form-control" placeholder="ubicación" />
+            </div>
+
+            <div class="d-flex col p-0">
+              <div class="input-group p-0 col">
+                <span class="bi bi-calendar3 input-group-text"></span>
+                <input type="date" class="form-control" />
+              </div>
+              <div class="input-group p-0 col">
+                <select class="form-select">
+                  <option value="">1:00 am</option>
+                  <option value="">2:00 am</option>
+                  <option value="">3:00 am</option>
+                  <option value="">4:00 am</option>
+                  <option value="">5:00 am</option>
+                  <option value="">6:00 am</option>
+                  <option value="">7:00 am</option>
+                  <option value="">8:00 am</option>
+                  <option value="">9:00 am</option>
+                  <option value="">10:00 am</option>
+                  <option value="">11:00 am</option>
+                  <option value="">Medio dia</option>
+                  <option value="">1:00 pm</option>
+                  <option value="">2:00 pm</option>
+                  <option value="">3:00 pm</option>
+                  <option value="">4:00 pm</option>
+                  <option value="">5:00 pm</option>
+                  <option value="">6:00 pm</option>
+                  <option value="">7:00 pm</option>
+                  <option value="">8:00 pm</option>
+                  <option value="">9:00 pm</option>
+                  <option value="">10:00 pm</option>
+                  <option value="">11:00 pm</option>
+                  <option value="">Media noche</option>
+                </select>
+              </div>
+            </div>
+            <div class="d-flex col p-0">
+              <div class="input-group p-0 col">
+                <span class="bi bi-calendar3 input-group-text"></span>
+                <input type="date" class="form-control" />
+              </div>
+              <div class="input-group p-0 col">
+                <select class="form-select">
+                  <option value="">1:00 am</option>
+                  <option value="">2:00 am</option>
+                  <option value="">3:00 am</option>
+                  <option value="">4:00 am</option>
+                  <option value="">5:00 am</option>
+                  <option value="">6:00 am</option>
+                  <option value="">7:00 am</option>
+                  <option value="">8:00 am</option>
+                  <option value="">9:00 am</option>
+                  <option value="">10:00 am</option>
+                  <option value="">11:00 am</option>
+                  <option value="">Medio dia</option>
+                  <option value="">1:00 pm</option>
+                  <option value="">2:00 pm</option>
+                  <option value="">3:00 pm</option>
+                  <option value="">4:00 pm</option>
+                  <option value="">5:00 pm</option>
+                  <option value="">6:00 pm</option>
+                  <option value="">7:00 pm</option>
+                  <option value="">8:00 pm</option>
+                  <option value="">9:00 pm</option>
+                  <option value="">10:00 pm</option>
+                  <option value="">11:00 pm</option>
+                  <option value="">Media noche</option>
+                </select>
+              </div>
+            </div>
+            <button type="button" class="btn btn-warning col">Buscar</button>
+          </form>
         </div>
       </div>
     </header>
@@ -152,9 +244,7 @@
               <!-- Product actions-->
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div class="text-center">
-                  <a class="btn btn-outline-dark mt-auto" href="#"
-                    >Añadir</a
-                  >
+                  <a class="btn btn-outline-dark mt-auto" href="#">Añadir</a>
                 </div>
               </div>
             </div>
@@ -189,9 +279,7 @@
               <!-- Product actions-->
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div class="text-center">
-                  <a class="btn btn-outline-dark mt-auto" href="#"
-                    >Añadir</a
-                  >
+                  <a class="btn btn-outline-dark mt-auto" href="#">Añadir</a>
                 </div>
               </div>
             </div>
@@ -226,9 +314,7 @@
               <!-- Product actions-->
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div class="text-center">
-                  <a class="btn btn-outline-dark mt-auto" href="#"
-                    >Añadir</a
-                  >
+                  <a class="btn btn-outline-dark mt-auto" href="#">Añadir</a>
                 </div>
               </div>
             </div>
@@ -263,9 +349,7 @@
               <!-- Product actions-->
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div class="text-center">
-                  <a class="btn btn-outline-dark mt-auto" href="#"
-                    >Añadir</a
-                  >
+                  <a class="btn btn-outline-dark mt-auto" href="#">Añadir</a>
                 </div>
               </div>
             </div>
@@ -337,9 +421,7 @@
               <!-- Product actions-->
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div class="text-center">
-                  <a class="btn btn-outline-dark mt-auto" href="#"
-                    >Añadir</a
-                  >
+                  <a class="btn btn-outline-dark mt-auto" href="#">Añadir</a>
                 </div>
               </div>
             </div>
@@ -374,9 +456,7 @@
               <!-- Product actions-->
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div class="text-center">
-                  <a class="btn btn-outline-dark mt-auto" href="#"
-                    >Añadir</a
-                  >
+                  <a class="btn btn-outline-dark mt-auto" href="#">Añadir</a>
                 </div>
               </div>
             </div>
@@ -388,7 +468,7 @@
     <footer class="py-5 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">
-          Autor &copy; Jhoan5 Renta autos 2024
+          Autor &copy; Jhoan5 Renta autos 2024 | Desarrollado con <a href="https://getbootstrap.com/" class="text-white" target="_blank">Bootstrap</a>
         </p>
       </div>
     </footer>
