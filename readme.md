@@ -7,3 +7,5 @@ Este proyecto es realizado para el sena.
 
 > [!NOTE]\
 > Este proyecto fue realizado con bootstrap 5 e incluye imagenes de la pagina www.renault.com
+
+> Este proyecto no acepta colaboraciones, solo lectura
